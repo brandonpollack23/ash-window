@@ -13,7 +13,7 @@ categories = ["game-engines", "graphics"]
 exclude = [".github/*"]
 
 [dependencies]
-ash = "^0.29.0"
+ash = {git = "https://github.com/MaikKlein/ash" }
 raw-window-handle = "0.3"
 
 [dev-dependencies]
